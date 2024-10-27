@@ -1,0 +1,12 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #EEE;
+}
+.whole{
+  overflow-y: scroll;
+  height: 640px;
+}

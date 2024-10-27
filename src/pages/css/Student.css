@@ -1,0 +1,67 @@
+.student-form{
+    height: auto;
+    padding-bottom: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 5px;
+}
+.top_title span{
+    font-size: 13px!important;
+}
+#das{
+    font-size: 16px!important;
+}
+.personal_details .form-group label{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.personal_details .form-group input[type="text"], input[type="email"], input[type="date"], input[type="file"]{
+    border-radius: 5px;
+    height: 45px;
+}
+.personal_details .form-group select{
+    border-radius: 5px;
+    height: 45px;
+    font-size: 14px;
+}
+
+::placeholder{
+    font-size: 14px;
+}
+.submit-btn{
+    display: block;
+    float: right;
+    border: none;
+}
+.submit-btn button{
+    border: none;
+    padding: 7px 40px;
+    background-color: #059296;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.submit-btn input[type="reset"]{
+    border: none;
+    padding: 7px 45px;
+    background-color: #F31559;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+}
+.search{
+    padding-top: 20px;
+    padding-right: 8px;
+}
+.personal_details table thead tr th{
+    padding: 7px 20px;
+    border: 0.1px solid #EEE;
+    font-size: 14px;
+}
+#name, #fname, #mname, #dob, #mobile , #validMobile{
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 5px;
+    display: none;
+}
